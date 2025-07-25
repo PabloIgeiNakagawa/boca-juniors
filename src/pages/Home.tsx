@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const BocaHome = () => {
@@ -43,8 +43,6 @@ const BocaHome = () => {
     { number: "1905", label: "Año de Fundación", icon: "📅" },
     { number: "40M", label: "Hinchas en el Mundo", icon: "👥" }
   ];
-
-  const news = [];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-yellow-600 overflow-hidden">
